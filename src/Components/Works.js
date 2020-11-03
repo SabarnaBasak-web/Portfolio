@@ -25,7 +25,7 @@ function Works({CraftomaniaImg, EnergysolutionImg, SocietyImg, PortfolioImg}) {
                     <div className="card-body">
                         <img src={CraftomaniaImg} alt="craftomania " />
                         <p className="card-body_content">
-                            An ecommerce website for handicrafts and botique items
+                            An ecommerce website for handicrafts and boutique items
                         </p>
                     </div>
                 </div>
