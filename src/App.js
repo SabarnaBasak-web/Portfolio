@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import CraftomaniaImg from './assets/images/craftomania.JPG';
+import EnergysolutionImg from './assets/images/energysolutions.JPG';
+import SocietyImg from './assets/images/societyofthesav.JPG';
+import PortfolioImg from './assets/images/portfolio.JPG';
+import CV from './CV.docx';
+
+//Component Imports
+import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+import Main from './Components/Main';
+import Work from './Components/Works';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Main CV = {CV}/>
+      <Work CraftomaniaImg = {CraftomaniaImg} EnergysolutionImg = {EnergysolutionImg} SocietyImg = {SocietyImg} PortfolioImg ={PortfolioImg}/>
+      {/* contact */}
+      <Footer />
     </div>
   );
 }
