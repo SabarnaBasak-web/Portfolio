@@ -2,8 +2,8 @@ import './App.css';
 import CraftomaniaImg from './assets/images/craftomania.JPG';
 import EnergysolutionImg from './assets/images/energysolutions.JPG';
 import SocietyImg from './assets/images/societyofthesav.JPG';
-import PortfolioImg from './assets/images/portfolio.JPG';
-import CV from './CV.docx';
+import BoxShadow from './assets/images/cssboxshadow.JPG';
+import CV from './CV.pdf';
 
 //Component Imports
 import Navbar from './Components/Navbar';
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Main CV = {CV}/>
-      <Work CraftomaniaImg = {CraftomaniaImg} EnergysolutionImg = {EnergysolutionImg} SocietyImg = {SocietyImg} PortfolioImg ={PortfolioImg}/>
+      <Work CraftomaniaImg = {CraftomaniaImg} EnergysolutionImg = {EnergysolutionImg} SocietyImg = {SocietyImg} BoxShadow ={BoxShadow}/>
       {/* contact */}
       <Footer />
     </div>

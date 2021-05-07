@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Works({CraftomaniaImg, EnergysolutionImg, SocietyImg, PortfolioImg}) {
+function Works({CraftomaniaImg, EnergysolutionImg, SocietyImg, BoxShadow}) {
 
     return (
         <div className="work-container">
@@ -31,12 +31,12 @@ function Works({CraftomaniaImg, EnergysolutionImg, SocietyImg, PortfolioImg}) {
                 </div>
                 <div className="card">
                     <div className="card-heading">
-                        Sharmila Basak <br /><a href="https://www.sharmilabasak.com" target="_blank" rel="noreferrer" className="card-link"> www.sharmilabasak.com </a>
+                        CSS Box shadow generator <br /><a href="https://my-project-1579578093491.web.app/" target="_blank" rel="noreferrer" className="card-link"> https://my-project-1579578093491.web.app/ </a>
                     </div>
                     <div className="card-body" >
-                        <img src={PortfolioImg} alt="portfolio" />
+                        <img src={BoxShadow} alt="portfolio" />
                         <p className="card-body_content">
-                            Portfolio Website of a painter
+                            Box shadow generator for css elements
                         </p>
                     </div>
                 </div>
