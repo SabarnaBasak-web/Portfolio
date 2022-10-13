@@ -30,10 +30,10 @@ function Main({ CV }) {
                     <img src={html} alt='html' />
                     <img src={css3} alt='css-3' />
                     <img src={javascript} alt='javascript' />
-                    <img src={react} alt='react' style={{ height: 48, width: 48 }} />
-                    <img src={graphql} alt='graphql' style={{ height: 48, width: 48 }} />
+                    <img src={react} alt='react' className='size-48' />
+                    <img src={graphql} alt='graphql' />
                     <img src={firebase} alt='firebase' />
-                    <img src={nestjs} alt='nestjs' style={{ height: 48, width: 48 }} />
+                    <img src={nestjs} alt='nestjs' className='size-48' />
                 </div>
                 <button className="btn"> <a href={CV} download>Download Resume</a> </button>
             </p>

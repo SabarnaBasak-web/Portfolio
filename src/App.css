@@ -183,3 +183,8 @@ body{
 .icons{
   margin-top: 0.8rem;
 }
+
+.size-48{
+  height: 48px;
+  width: 48px;
+}
